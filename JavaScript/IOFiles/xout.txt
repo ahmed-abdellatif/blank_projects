@@ -1,0 +1,13 @@
+Executing zeExecute.sh
+-----------------------------------------------------------------
+Descend into 'TestDirectory' directory
+ 
+EXECUTING SourceFiles
+[?1049h[1;36r(B[m[4l[?7h[?1h=[39;49m[39;49m[37m[40m[H[2J[37m[40m[J(B[m[39;49m[37m[40m[37m[40m[J[39;49m(B[m[34d[93m[44mGetting file://localhost/mnt/e/Users/lmanc/Documents/GitHub/blank_js/js/TestDirectory/SourceFiles/Aprog.html[K[39;49m(B[m[1;207H[35m[40mTitle Here[2;101H[93m[44mJavaScript Aprog[33d[39;49m(B[m
+
+[3G[37m[40mArrow keys: Up and Down to move.  Right to follow a link; Left to go back.
+ H)elp O)ptions P)rint G)o M)ain screen Q)uit /=search [delete]=history list [39;49m(B[m[34d[93m[44mCommands: Use arrow keys to move, '?' for help, 'q' to quit, '<-' to go back.[K[39;49m(B[m[93m[44mAre you sure you want to quit? (y)[K [39;49m(B[m
+
+[37m[40m[J[39;49m(B[m[36;1H[?1049l[?1l>EXECUTION COMPLETE
+Return To 'WorkingDirectory' directory
+ 
