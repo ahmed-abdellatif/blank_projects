@@ -22,8 +22,6 @@ if [[ ! $PWD/ = */WorkingDirectory/SourceFiles/ ]]; then
   echo $WRONG_DIRECTORY
   exit 1
 fi
-# pwd
-# echo -n > $IOFiles/xlog.txt
 #  running every time slows computat$IOn
 read -p "Refresh Date...? [Y]es / [N]o:    " yn_
 case "$yn_" in
@@ -45,24 +43,9 @@ echo "-----------------------------------------------------------------" | tee -
 echo "Executing zcCopyProgram.sh" | tee -a $IOFiles/xlog.txt
 echo "-----------------------------------------------------------------" | tee -a $IOFiles/xlog.txt
 ../../Executable/./zcCopyProgram.sh | tee -a $IOFiles/xlog.txt
-#  echo -n > $IOFiles/ErrorMSG.txt
-# echo "Executing zdCompile.sh" | tee $IOFiles/ErrorMSG.txt
-# echo "-----------------------------------------------------------------" | tee -a $IOFiles/ErrorMSG.txt
-# ../../Executable/./zdCompile.sh |& tee -a $IOFiles/ErrorMSG.txt #|& captures errors
-# read -p "...? [Y]es / [N]o:    " yn_
-# case "$yn_" in
-#  [yY][eE][sS]|Y|y ) # yes
-    echo "Executing zeExecute.sh" | tee $IOFiles/xout.txt
-    echo "-----------------------------------------------------------------" | tee -a $IOFiles/xout.txt
+echo "Executing zeExecute.sh" | tee $IOFiles/xout.txt
+echo "-----------------------------------------------------------------" | tee -a $IOFiles/xout.txt
     ../../Executable/./zeExecute.sh | tee -a $IOFiles/xout.txt
-#    ;;
-#  [nN][oO]|N|n ) # no
-#    echo "Execut$IOn Stopped, error messages printed to ErrorMSG.txt in $IO Directory"
-#    ;;
-#  * ) # else
-#    echo $YES_OR_NO
-#    ;;
-#esac
 echo "Program Done Executing"
 
 # /****************************************************************
