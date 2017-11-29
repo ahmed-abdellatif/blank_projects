@@ -1,5 +1,0 @@
-Beginning Computation
-Ending Computation
-EXECUTION COMPLETE
-Return from 'TestDirectory' directory
- 

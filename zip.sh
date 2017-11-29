@@ -17,7 +17,7 @@ for item in *
     if [[ -d $item ]];
     then
       echo "Compressing " $item
-      zip -q -T -m $item.zip $item/* && echo "Success" || echo "Failure"
+      zip -r -q -T -m $item.zip $item/* && echo "Success" || echo "Failure"
     fi
   done
 mkdir Compressed
