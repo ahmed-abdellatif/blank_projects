@@ -7,3 +7,4 @@ Java
 JavaScript
 Python
 Ruby
+Bash

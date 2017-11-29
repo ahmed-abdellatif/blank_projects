@@ -35,7 +35,7 @@ rm tar*
 cd SourceFiles/
 for item in *
 do
-  sed -i "/.* Last Edit Date:*/a\ * THIS IS A TEST FILE CHANGES WILL NOT BE SAVED" $item
+  sed -i "/.* Last Edit Date:*/a\# * THIS IS A TEST FILE CHANGES WILL NOT BE SAVED" $item
 done
 #
 echo "Return To 'WorkingDirectory' directory"
