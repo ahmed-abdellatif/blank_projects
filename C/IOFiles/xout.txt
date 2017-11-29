@@ -1,0 +1,12 @@
+Executing zeExecute.sh
+-----------------------------------------------------------------
+Descend into 'TestDirectory' directory
+ 
+EXECUTING SourceFiles
+Reading From File ../../IOFiles/xin.txt
+Line Read: 0
+Beginning Computation
+Main Function Complete
+EXECUTION COMPLETE
+Return To 'WorkingDirectory' directory
+ 

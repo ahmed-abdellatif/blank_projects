@@ -1,0 +1,12 @@
+Executing zdCompile.sh
+-----------------------------------------------------------------
+Descend into 'TestDirectory' directory
+/mnt/e/Users/lmanc/Documents/GitHub/blank_java/java/TestDirectory
+ 
+COMPILING SourceFiles
+rm: cannot remove ‘*.class’: No such file or directory
+rm: cannot remove ‘Aprog’: No such file or directory
+Return To 'WorkingDirectory' directory
+ 
+COMPILING COMPLETE
+ 
