@@ -1,0 +1,28 @@
+Executing zaRefreshDate.sh
+-----------------------------------------------------------------
+File main.c
+Executing zbBackupProgram.sh
+-----------------------------------------------------------------
+Remove the old 'BackupDirectory' directory
+Create a new 'BackupDirectory' directory
+Descend into 'WorkingDirectory' directory
+Descend into directory SourceFiles
+Return from directory SourceFiles
+tar directory SourceFiles
+SourceFiles/
+SourceFiles/main.c
+gzip directory SourceFiles
+cp gzipped file to 'BackupDirectory'
+rm the gzipped file from  SourceFiles
+Return To 'WorkingDirectory' directory
+Executing zcCopyProgram.sh
+-----------------------------------------------------------------
+Remove the old 'TestDirectory' directory
+Create a new 'TestDirectory' directory
+cp files from 'BackupDirectory' into 'TestDirectory'
+Descend into 'TestDirectory' directory
+untar directory tarfileSourceFiles
+SourceFiles/
+SourceFiles/main.c
+Remove the tar files
+Return To 'WorkingDirectory' directory

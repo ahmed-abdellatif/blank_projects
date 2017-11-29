@@ -1,0 +1,2 @@
+This is a moc structure to place folders/files that are the same the program will edit when impliments
+this allows the user to mess up this struture without doing the same damage to the working system.

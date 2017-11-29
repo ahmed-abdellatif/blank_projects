@@ -1,0 +1,24 @@
+Main: Ending execution
+Main: 
+TIME***********************************************************************
+TIME CPU percent    0.00   0.00                    Wed Nov 29 10:50:54 2017
+TIME ending                0.00 u         0.00 s   Res:        1464
+TIME ending                0.00 u_t       0.00 s_t
+TIME***********************************************************************
+
+
+
+UTILS: open the input file '../../IOFiles/xin.txt'
+UTILS: open succeeded for '../../IOFiles/xin.txt'
+UTILS: open the logfile '../../IOFiles/xlog.txt'
+UTILS: open succeeded for '../../IOFiles/xlog.txt'
+UTILS: open the output file '../../IOFiles/xout.txt'
+UTILS: open succeeded for '../../IOFiles/xout.txt'
+UTILS: close the output file
+UTILS: the output file was closed
+UTILS: close the output file
+UTILS: the output file was closed
+Main: Ending execution
+EXECUTION COMPLETE
+Return To 'WorkingDirectory' directory
+ 
