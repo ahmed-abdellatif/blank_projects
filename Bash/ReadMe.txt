@@ -8,7 +8,7 @@
 
 # /****************************************************************
 #  * Program:''
-#  * Language: Shell Script
+#  * Language: Bash Shell Script
 # **/
 
 
