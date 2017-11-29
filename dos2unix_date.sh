@@ -1,17 +1,17 @@
 loop() {
 for i in *
-        do
-        if [[ -f $i ]];
-        then
-                echo "file" $i
-                dos2unix $i
-        elif [[ -d $i ]];
-        then
-                echo "dir" $i
-                cd $i
-		loop
-		cd ../
-        fi
+  do
+    if [[ -f $i ]];
+    then
+      echo "file" $i
+      dos2unix $i
+    elif [[ -d $i ]];
+    then
+      echo "dir" $i
+      cd $i
+      loop
+      cd ../
+    fi
 done
 }
 today=$(date +%m-%d-%Y--%H:%M:%S) to_replace="Last Edit Date:"
@@ -46,8 +46,8 @@ for i in *
 	then
 		echo "dir" $i
 		cd $i
-		# loop
-    other_loop
+		loop
+    # other_loop
 		cd ../
 	fi
 done
