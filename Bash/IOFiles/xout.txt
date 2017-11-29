@@ -1,8 +1,0 @@
-Executing zeExecute.sh
------------------------------------------------------------------
-Descend into 'TestDirectory' directory
-Executing without debugging
-hello
-EXECUTION COMPLETE
-Return from 'TestDirectory' directory
- 

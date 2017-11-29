@@ -1,10 +1,0 @@
-Executing zeExecute.sh
------------------------------------------------------------------
-Descend into 'TestDirectory' directory
- 
-EXECUTING SourceFiles
-Begining Execution
-Ending Execution
-EXECUTION COMPLETE
-Return To 'WorkingDirectory' directory
- 
