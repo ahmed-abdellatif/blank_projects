@@ -2,10 +2,10 @@
 # 'zaRefreshDate.sh'
 # this program will refresh the date of last edit in all files
 # recursively by sub directory
-# finds string "Last Edit Date: 11-08-2017--08:14:33
+# finds string "Last Edit Date: 11-29-2017--11:04:36
 # the current date and time
 # Author/CopyRight: Mancuso, Logan
-# Last Edit Date: 11-08-2017--08:14:33
+# Last Edit Date: 11-29-2017--11:04:36
 # *************************************************************
 
 #!/bin/bash
