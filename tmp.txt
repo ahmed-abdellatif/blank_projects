@@ -97,6 +97,8 @@ dir WorkingDirectory
 dir SourceFiles
 file generic
 dir Java
+dir BackupDirectory
+file tarfileSourceFiles.gz
 dir Executable
 file zaRefreshDate.sh
 file zbBackupProgram.sh
@@ -111,6 +113,10 @@ file xlog.txt
 file xout.txt
 file ReadMe.txt
 file Run.sh
+dir TestDirectory
+dir SourceFiles
+file Aprog.class
+file Aprog.java
 dir Utilities
 file ScanLine.java
 file Scanner.java
@@ -119,6 +125,8 @@ dir WorkingDirectory
 dir SourceFiles
 file Aprog.java
 dir JavaScript
+dir BackupDirectory
+file tarfileSourceFiles.gz
 dir Executable
 dir Executable
 file zaRefreshDate.sh
@@ -160,6 +168,10 @@ file xlog.txt
 file xout.txt
 file ReadMe.txt
 file Run.sh
+dir TestDirectory
+dir SourceFiles
+file Aprog.html
+file main.js
 dir Utilities
 file ScanLine.java
 file Scanner.java
