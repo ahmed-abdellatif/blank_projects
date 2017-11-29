@@ -1,4 +1,0 @@
-../../IOFiles/xlog.txt
-Beginning Execution
-Ending Execution
-
