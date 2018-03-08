@@ -8,7 +8,7 @@
 
 /****************************************************************
  * Program:''
- * Language:
+ * Language: Lexical Analysis Flex/Bison 
 **/
 
 
