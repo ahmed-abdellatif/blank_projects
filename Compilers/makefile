@@ -8,31 +8,31 @@
 
 # use compiler gcc
 GCC = gcc
-CFLAGS = -DYYDEBUG
+GCCFLAG = -DYDEBUG
+BISON = bison
 BISONFLAGS= -t
 FLEX = flex
+FLEXFLAGS =
 
-FL = flex.yy.o
-MT = main.tab.o
 
-FILES = $(FL) $(MT)
+MTC = main.tab.c
+MTH = main.tab.h
+FLC = lex.yy.c
+
+
+FILES = $(MTC) $(MTH) $(FLC)
 
 # output of Aprog program
 Aprog: $(FILES)
-	$(GCC) $(CFLAGS) -ly -o Aprog $(FILES)
+	$(GCC)  $(FILES) $(GCCFLAG) -o Aprog 
 
-# flex.yy.o file
-flex.yy.o: flex.l
-	$(FLEX) -c flex.l
+# main.tab.c main.tab.h
+main.tab.c main.tab.h: main.y
+	$(BISON) -d $(BISONFLAGS) main.y
 
-# main.tab.c
-main.tab.c: main.y
-	bison $(BISONFLAGS) main.y
-
-# main.tab.h
-main.tab.h: main.y
-	bison -d $(BISONFLAGS) main.y 
-
+# lex.yy.c
+lex.yy.c: flex.l main.tab.h
+	$(FLEX) $(FLEXFLAGS) flex.l
 
 # *************************************************************
 # Other files to compile in this program, "non-default" files
@@ -41,7 +41,7 @@ main.tab.h: main.y
 
 # clean
 clean:
-	rm -rf *.o
+	rm -rf *.o *.c *.tab.[ch] *.output *.act
 
 
 # *************************************************************
