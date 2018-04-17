@@ -1,29 +1,32 @@
 # *************************************************************
-# 'zeExecute.sh'
-# this program will execute the Aprog in the test directory
+# 'zdCompile.sh'
+# this program will compile the files in the test directory
 #
 # Author/CopyRight: Mancuso, Logan
 # Last Edit Date: 11-29-2017--11:04:36
 # *************************************************************
-
 #!/bin/bash
 echo "Descend into 'TestDirectory' directory"
 cd ../../TestDirectory/
-include=../../IOFiles
+# pwd
 #
 for item in *
 do
   echo " "
-  echo "EXECUTING" $item
+  echo "COMPILING" $item
   cd $item
-  Aprog $include/xin.txt $include/xout.txt $include/xlog.txt
+  rm *.o
+  rm Aprog
+  make -f ../../makefile
   cd ..
-echo "EXECUTION COMPLETE"
 done
 echo "Return To 'WorkingDirectory' directory"
-cd ../WorkingDirectory/SourceFiles
+cd ../WorkingDirectory/SourceFiles/
+#
+echo " "
+echo "COMPILING COMPLETE"
 echo " "
 # *************************************************************
-# End 'zeExecute.sh'
+# End 'zdCompile.sh'
 # *************************************************************
 
