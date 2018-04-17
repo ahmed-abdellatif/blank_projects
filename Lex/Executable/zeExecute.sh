@@ -16,7 +16,7 @@ do
   echo " "
   echo "EXECUTING" $item
   cd $item
-  Aprog $include/xin.txt $include/xout.txt $include/xlog.txt
+  ./a.out $include/xin.txt $include/xout.txt $include/xlog.txt
   cd ..
 echo "EXECUTION COMPLETE"
 done

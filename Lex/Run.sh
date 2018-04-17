@@ -24,7 +24,7 @@ if [[ ! $PWD/ = */WorkingDirectory/SourceFiles/ ]]; then
 fi
 # pwd
 # echo -n > $IOFiles/xlog.txt
-#  running every time slows compilation
+#  running every time slows computat$IOn
 read -p "Refresh Date...? [Y]es / [N]o:    " yn_
 case "$yn_" in
   [yY][eE][sS]|Y|y ) # yes
